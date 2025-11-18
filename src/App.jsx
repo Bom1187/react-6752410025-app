@@ -12,7 +12,7 @@ export default function App() {
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/createmyrun' element={<CreateMyrun/>}/>
-    <Route path='/showallmyrun' element={<ShowAllMyRun/>}/>
+    <Route path='/showallmyrun' element={<ShowAllMyrun/>}/>
     <Route path='/updatemyrun/:id' element={<UpdateMyrun/>}/>
     </Routes>
     </BrowserRouter>
